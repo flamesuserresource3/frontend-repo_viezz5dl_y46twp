@@ -9,13 +9,13 @@ export default function Hero3D() {
         <div className="z-10 w-full md:w-1/2">
           <div className="inline-flex items-center gap-2 rounded-full border border-violet-500/30 bg-violet-500/10 px-3 py-1 text-xs text-violet-300 backdrop-blur">
             <Rocket size={14} />
-            Micro‑product marketplace
+            One problem, one course
           </div>
           <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
-            Discover bold digital micro‑products
+            Learn fast with focused, bite‑sized courses
           </h1>
           <p className="mt-4 max-w-xl text-violet-200/80">
-            Shop and sell bite‑sized templates, presets, snippets and mini‑courses. Crafted for creators. Powered by a futuristic, interactive 3D experience.
+            Agnostick helps you solve a single problem at a time. Discover curated micro‑products, templates, and mini‑courses crafted by top creators.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#products" className="rounded-lg bg-violet-600 px-5 py-3 text-sm font-medium text-white shadow-lg shadow-violet-600/30 transition hover:bg-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-400">
@@ -29,7 +29,7 @@ export default function Hero3D() {
         <div className="relative mt-12 h-[420px] w-full md:mt-0 md:h-[520px] md:w-1/2">
           {/* Spline scene */}
           <div className="absolute inset-0">
-            <Spline scene="https://prod.spline.design/wwTRdG1D9CkNs368/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+            <Spline scene="https://prod.spline.design/qQUip0dJPqrrPryE/scene.splinecode" style={{ width: '100%', height: '100%' }} />
           </div>
           {/* Subtle gradient glow that does not block interaction */}
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_60%_at_70%_20%,rgba(139,92,246,0.25),transparent)]" />
